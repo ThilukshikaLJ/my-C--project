@@ -18,6 +18,11 @@ int main() {
     // Displaying the result
     cout << "The sum of " << num1 << " and " << num2<< " is " << result << endl;
 
+ // substract the two numbers and store the result in 'result'
+    int result_sub = num1-num2;
+    
+    // Displaying the result of substraction
+    cout << "The substraction of " << num1 << " and " << num2<< " is " << result_sub << endl;
     return 0;
 }
 
